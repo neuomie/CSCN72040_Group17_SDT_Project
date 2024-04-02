@@ -14,11 +14,11 @@ public class NewNotePlusIcon {
 		JPanel myIconPanel = new JPanel();
 		myIconPanel.setPreferredSize(new Dimension(32, 32));
 		myIconPanel.setLayout(new FlowLayout(FlowLayout.RIGHT)); // Align to the right
-        myIconPanel.add(plusLabel);
-        //myIconPanel.setVisible(true);
+        	myIconPanel.add(plusLabel);
+        
 
-        mainFrame.setLayout(new BorderLayout());
-        mainFrame.add(myIconPanel, BorderLayout.SOUTH);	
+        	mainFrame.setLayout(new BorderLayout());
+        	mainFrame.add(myIconPanel, BorderLayout.SOUTH);	
         
 		
 	}
